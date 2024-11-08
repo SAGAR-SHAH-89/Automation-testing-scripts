@@ -9,9 +9,11 @@ public class Test {
 
     public static void main(String[] args) throws Throwable {
         login_page user_login_page = new login_page();
-        for (int i = 0; i <= 10; i++) {
-            user_login_page.login();
-        }
+        // for (int i = 0; i <= 10; i++) {
+        user_login_page.login();
+        user_login_page.filling_login();
+
+        // }
         // driver.quit();
     }
 }
