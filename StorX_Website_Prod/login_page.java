@@ -27,6 +27,30 @@ public class login_page {
         driver.findElement(By.className("submit-btn")).click();
         //Login successfull
         System.out.println("Congratulations Login was successfully done you are in dashboard");
+        
+    }
+    public void dashboard(){
+        System.out.println("Congratulations Login was successfully done you are in dashboard");
+
+    }
+    public void vault(){
+        System.out.println("Lets get started with the vault section");
+
+    }
+    public void resources(){
+        System.out.println("Lets get started with the resources section");
+    }
+    public void access(){
+        System.out.println("Lets get started with the access");
+    }
+    public void profileSetting(){
+        System.out.println("Lets get started with the Profile settings");
+    }
+    public void billing(){
+        System.out.println("Lets check the billing section now.");
+    }
+    public void logout(){
+        System.out.println("Loging out from storx.");
         // Clicking on the menubar
         driver.findElement(By.xpath("//*[@id=\"dashboard-header\"]/div/div/div[2]/ul/li/div")).click();
         //Logout
