@@ -11,7 +11,7 @@ public class Test {
         login_page user_login_page = new login_page();
         // for (int i = 0; i <= 10; i++) {
         user_login_page.login();
-        user_login_page.filling_login();
+        // user_login_page.filling_login();
 
         // }
         // driver.quit();
