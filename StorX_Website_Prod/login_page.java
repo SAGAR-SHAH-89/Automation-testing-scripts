@@ -53,8 +53,7 @@ public class login_page {
         System.out.println("Vault page navigation is passed.");
 
         Thread.sleep(10000);
-        // WebElement mainContent = driver.findElement(By.id("main-content"));
-        // ((JavascriptExecutor) driver).executeScript("arguments[0].scrollTop = 100;", mainContent);
+        
         WebElement accessgrantCard = driver
                 .findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div/div/div[2]/a"));
         accessgrantCard.click();
@@ -62,7 +61,7 @@ public class login_page {
         Thread.sleep(wait_time);
         driver.navigate().back();
         System.out.println("access grant page navigation passed.");
-        // Thread.sleep(wait_time);
+        
         Thread.sleep(10000);
         WebElement billingCard = driver
                 .findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div/div/div[3]/a"));
